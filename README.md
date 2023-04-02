@@ -1,4 +1,4 @@
-# Getting Started
+# Google Authentication
 
 This is an authentication page in ReactJS and NextJS. 
 
