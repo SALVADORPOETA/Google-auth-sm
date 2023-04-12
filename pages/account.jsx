@@ -13,9 +13,9 @@ const account = () => {
         )
     } else {
         return (
-            <di>
+            <div>
                 <p>You are not sign in.</p>
-            </di>
+            </div>
         )
     }
 }
