@@ -6,10 +6,11 @@ const login = () => {
     console.log(session);
   if (session) {
     return (
-        <div>
-            <p>Welcome, {session.user.email}</p>
-            <img src={session.user.image} alt='error1' referrerPolicy="no-referrer" ></img>
-            <button onClick={()=> signOut()} >Sign out</button>
+        <div className='container'>
+          <p>Welcome, {session.user.name}</p>
+          <img src={session.user.image} style={{width: '75px', borderRadius: '50px'}} ></img>
+          Signed in as {session.user.email} <br />
+          <button className="back" onClick={() => signOut()}>Sign out</button>
         </div>
     )
   } else {
@@ -24,5 +25,3 @@ const login = () => {
 }
 
 export default login
-
-// Test
