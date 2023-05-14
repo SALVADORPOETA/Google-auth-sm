@@ -43,3 +43,26 @@
     background-color: rgba(74, 52, 255, 0.8);
     color: white;
 }
+
+.buttons {
+    display: flex;
+    align-content: space-between;
+}
+  
+.button1 {
+    width: 150px;
+    height: 150px;
+}
+  
+.button2 {
+    width: 150px;
+    height: 150px;
+}
+  
+p {
+    text-align: center;
+}
+  
+body {
+    background-color: #febaad;
+}
