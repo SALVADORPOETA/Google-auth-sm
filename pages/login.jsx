@@ -25,6 +25,9 @@ const login = () => {
               <a href="/"><button className="back">Back</button></a>    
             </div>
           </div>
+          <div>
+            <img src="https://logodownload.org/wp-content/uploads/2014/09/google-logo-1.png" alt="/" width={300} />
+          </div>
       </div>
     )
   }
